@@ -1,0 +1,71 @@
+*{
+    margin: 0px;      
+    font-family: 'Inter';
+}
+#logo{
+    width: 125px;
+    margin-left: 3.125rem;
+    margin-top: 3.25rem;
+}
+#titulo-menusuperior{
+    margin-left: 9.375rem;
+    margin-top: 3.125rem;
+}
+#texto-menusuperior{
+    margin-left: 9.375rem;
+    margin-top: 1.563rem;
+    padding-bottom: 6.25rem;
+    
+}
+#menusuperior{
+    background-image: url(img/fundo-menusuperior.svg);  
+    background-size: cover;  
+    color: white;
+}
+#menuinformacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.icone{    
+    margin: 3.12rem 0rem 3.12rem 6.25rem;
+    padding: 1.56rem;
+
+}
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+#titulovideo{
+    color: #247BA0;
+    margin-top: 3.125rem;
+    
+}
+#video{
+    margin: 3.125rem 1.563rem 3.125rem 6.25rem;
+}
+#carrossel{
+    background-color: #247BA0;    
+    padding: 50px;
+    
+}
+#titulo-carrossel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+#div-cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-left: 50px;
+}
